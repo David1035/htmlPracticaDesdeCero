@@ -1,0 +1,10 @@
+#contenedor-padre .contenedor1 {
+    background-color:beige ;
+    width: 100px;
+    height: 100px;
+}
+
+#contenedor-padre {
+    display: flex;
+    margin: 10px;
+}
