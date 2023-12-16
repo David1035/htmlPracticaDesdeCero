@@ -1,22 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>David Hernandez Digital</title>
+    <style>
+        #contenedor-padre{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        }
+        #prueba1 {
+            background-color: rgb(127, 161, 255);
+            width: 100%;
+            height: 50%;
+            display: flex;
+            justify-self: unset;
+            align-items:;
+            justify-content: center;
+        }
+        #prueba2 {
+            background-color: rgb(214, 127, 255);
+            width: 100%;
+            height: 60vh;
+            text-align: center;
+
+        }
+        #prueba3 {
+            background-color: rgb(65, 173, 44);
+            width: 100%;
+            height: 100vh;            
+        }
+        .contenedor1{
+            display: grid;
+            gap: 1rem;
+            padding: 1rem;
+            border: solid black 1px;
+            box-shadow: inset 0 0 10px rgba(0,0,0,.5), 0 0
+            10px rgba(0,0,0,.15) ;
+            margin: 1rem;
+            text-align-last: auto;
+            align-items: center;
+            align-content: center;
+        }
+        .button-prueba1{
+            font-size: 1.5em;
+            color: white;
+            background-image: linear-gradient(to right, red , darkred );
+            padding: 1rem 3rem;
+            cursor: pointer;
+            transition: all .3s ease-in-out;
+            border-radius: 9px;
+
+        }
+    </style>
 </head>
 <body>
     <div id="contenedor-padre">
         <div class="contenedor1" id="prueba1">
-            <h1>David</h1>
+            <h1>David hernandez gomez</h1>
+            <p>creador de contenido digital, nueva era, nuevo contenido</p>
+            <p>cualquier idea puede ser realidad</p>
         </div>
         <div class="contenedor1" id="prueba2">
-            <h1>Hdez</h1>
+            <h1>David Hernandez</h1>
+            <p>Mi primer sitio web</p>
+            <p>El deseo es lo más importante para cualquier humano</p>
+            <button class="button-prueba1">el poder de la imaginación</button>
         </div>
         <div class="contenedor1" id="prueba3">
             <p>Mi página</p>
-            <img src="" alt="">
+            <img src="https://i.pinimg.com/236x/c3/f0/08/c3f008a5e977442ee4c5bfac421b99b3.jpg" alt="" class="perro">
         </div>
     </div>
     
